@@ -1,0 +1,22 @@
+.section1{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .element{
+
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        text-align: center;
+    }
+
+    .elem1{
+
+        background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../images/reloj5.png);
+;       background-position: 200px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+}

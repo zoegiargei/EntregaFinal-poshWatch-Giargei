@@ -24,8 +24,14 @@
     }
 
     .nav__links{
+
         color: $txt-color;
         text-decoration: none;
+        
+        transition: all 350ms;
+        &:hover{
+            color: rgb(90, 90, 90);
+        }
     }
 
     .nav__menu{
@@ -45,6 +51,7 @@
 }
 
 .logo{
+
     width: 30%;
     height: 30%;
 }
@@ -56,6 +63,6 @@
 
     transition: color 350ms;
     &:hover{
-        color: black;
+        color: rgb(59, 59, 59);
     }
 }

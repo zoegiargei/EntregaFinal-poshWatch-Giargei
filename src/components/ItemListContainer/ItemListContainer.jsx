@@ -1,5 +1,3 @@
-import ItemCount from "./ItemCount";
-
 const ItemListContainer = (props) => {
     
     return(
@@ -7,8 +5,6 @@ const ItemListContainer = (props) => {
             <h1 className="greeting__title">
                 {props.greeting}
             </h1>
-            
-            <ItemCount />
         </section>
     );
 };

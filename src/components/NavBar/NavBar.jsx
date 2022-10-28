@@ -1,7 +1,7 @@
-import iconoMenu from '../svg/nav__menu.svg';
-import closeMenu from '../svg/nav__close.svg';
-import ItemList from './ItemList';
-import CartWidget from './CartWidget';
+import iconoMenu from '../../svg/nav__menu.svg';
+import closeMenu from '../../svg/nav__close.svg';
+import ItemList from '../ItemList/ItemList';
+import CartWidget from '../CartWidget/CartWidget';
 
 const NavBar = ( props ) => {
     

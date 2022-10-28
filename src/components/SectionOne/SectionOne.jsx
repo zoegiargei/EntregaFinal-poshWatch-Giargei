@@ -1,4 +1,5 @@
 import React from 'react';
+import ItemCount from '../ItemCount/ItemCount';
 
 const SectionOne = () => {
     return (
@@ -8,6 +9,7 @@ const SectionOne = () => {
 
             <div className='element elem2'>
                 reloj
+                <ItemCount />
             </div>
         </div>
     );

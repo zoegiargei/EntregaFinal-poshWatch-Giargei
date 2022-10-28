@@ -4,6 +4,8 @@ const ItemCount = () => {
 
     //contador
     const [itemCount,setContador] = useState(1);
+    //onAdd
+    const [cantidadCompr, setCantidadComp] = useState(0)
 
     const modificarContador = (operacion)=> {
         if(operacion == "+"){
@@ -17,16 +19,10 @@ const ItemCount = () => {
         }
     }
 
-    //onAdd
-    const [cantidadComp, setCantidadComp] = useState(1)
+    const onAdd = () => {
 
-    const onAdd = (contador) => {
-        
-        if(cantidadComp == 0){
-            setCantidadComp(cantidadComp + contador)
-        }
-        console.log(cantidadComp)
     }
+
     
     return (
 
@@ -38,7 +34,7 @@ const ItemCount = () => {
             </div>
 
             <div>
-                <button onClick={()=> onAdd({itemCount})} className='btn btn-dark'>Agregar al carrito</button>
+                <button onClick={()=> onAdd()} className='btn btn-dark'>Agregar al carrito</button>
             </div>
         </>
     )

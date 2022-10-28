@@ -1,5 +1,5 @@
-import NavBar from './NavBar';
-import Cta from './Cta';
+import NavBar from '../NavBar/NavBar';
+import Cta from '../Cta/Cta';
 
 const Header = (props) => {
 

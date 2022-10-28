@@ -1,9 +1,9 @@
 import '../styles.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Header from './Header';
-import ItemListContainer from './ItemListContainer';
-import SectionOne from './SectionOne';
+import Header from './Header/Header';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
+import SectionOne from './SectionOne/SectionOne';
 
 function App() {
   return (

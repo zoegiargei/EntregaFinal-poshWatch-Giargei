@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import Header from './Header/Header';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
-import SectionOne from './SectionOne/SectionOne';
+import Home from './Home/Home';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
     <>
       <Header h1='Encontrá tu reloj' p='En el momento justo' btn="Collection" />
       <ItemListContainer greeting="¡Bienvenidos a Posh Watch relojería!" />
-      <SectionOne />
+      <Home />
     </>
   );
 }

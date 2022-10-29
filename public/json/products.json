@@ -8,7 +8,7 @@
         "movimiento": "Cuarzo",
         "precio": "76995",
         "stock": "5",
-        "img":"reloj-mujer-tommy-1782558"
+        "img":"reloj-mujer-tommy-1782558.png"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "movimiento": "Cuarzo",
         "precio": "67895",
         "stock": "5",
-        "img":"reloj-mujer-tommy-1782497"
+        "img":"reloj-mujer-tommy-1782497.png"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "movimiento": "Cuarzo",
         "precio": "30795",
         "stock": "5",
-        "img":"reloj-mujer-festina-F16790/A"
+        "img":"reloj-mujer-festina-F16790-A.png"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "movimiento": "Cuarzo",
         "precio": "30795",
         "stock": "5",
-        "img":"reloj-mujer-festina-F16790/B"
+        "img":"reloj-mujer-festina-F16790-B.png"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "movimiento": "Cuarzo",
         "precio": "103395",
         "stock": "5",
-        "img":"reloj-mujer-citizen-EM050375X"
+        "img":"reloj-mujer-citizen-EM050375X.png"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "movimiento": "Cuarzo",
         "precio": "131095",
         "stock": "5",
-        "img":"reloj-mujer-citizen-EM053382Y"
+        "img":"reloj-mujer-citizen-EM053382Y.png"
     },
     {
         "id": "7",
@@ -74,7 +74,7 @@
         "movimiento": "Cuarzo",
         "precio": "65995",
         "stock": "5",
-        "img":"reloj-hombre-tommy-1792007"
+        "img":"reloj-hombre-tommy-1792007.png"
     },
     {
         "id": "8",
@@ -85,7 +85,7 @@
         "movimiento": "Cuarzo",
         "precio": "84995",
         "stock": "5",
-        "img":"reloj-hombre-tommy-1792020"
+        "img":"reloj-hombre-tommy-1792020.png"
     },
     {
         "id": "9",
@@ -96,7 +96,7 @@
         "movimiento": "Cuarzo",
         "precio": "59595",
         "stock": "5",
-        "img":"reloj-hombre-fossil-FS5119"
+        "img":"reloj-hombre-fossil-FS5119.png"
     },
     {
         "id": "10",
@@ -107,7 +107,7 @@
         "movimiento": "Cuarzo",
         "precio": "70495",
         "stock": "5",
-        "img":"reloj-hombre-fossil-FS5095"
+        "img":"reloj-hombre-fossil-FS5095.png"
     },
     {
         "id": "11",
@@ -118,7 +118,7 @@
         "movimiento": "Cuarzo",
         "precio": "652995",
         "stock": "5",
-        "img":"reloj-hombre-tissot-1004271605100"
+        "img":"reloj-hombre-tissot-1004271605100.png"
     },
     {
         "id": "12",
@@ -129,6 +129,6 @@
         "movimiento": "Cuarzo",
         "precio": "120595",
         "stock": "5",
-        "img":"reloj-hombre-tissot-1014101105100"
+        "img":"reloj-hombre-tissot-1014101105100.png"
     }
 ]

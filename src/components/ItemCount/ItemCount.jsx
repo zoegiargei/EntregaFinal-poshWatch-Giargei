@@ -4,8 +4,6 @@ const ItemCount = () => {
 
     //contador
     const [itemCount,setContador] = useState(1);
-    //onAdd
-    const [cantidadCompr, setCantidadComp] = useState(0)
 
     const modificarContador = (operacion)=> {
         if(operacion == "+"){
@@ -18,11 +16,6 @@ const ItemCount = () => {
             }
         }
     }
-
-    const onAdd = () => {
-
-    }
-
     
     return (
 

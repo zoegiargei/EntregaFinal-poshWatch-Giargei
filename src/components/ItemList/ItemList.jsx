@@ -1,11 +1,12 @@
-const ItemList = ( props ) => {
-    return(
-        <li className="nav__items nav__link--menu">
-            <a className="nav__links" href="#">
-                { props.opcion }
-            </a>
-        </li>
+import Item from "../Item/Item";
+
+const ItemList = ({productsList}) => {
+    
+    return (
+        <>
+            {productsList.map(product => <Item key={ product.id } reloj={ product } />)}
+        </>
     );
-};
+}
 
 export default ItemList;

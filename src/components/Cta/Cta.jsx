@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Cta = (props) => {
     return(
-        <a href={props.href} className="cta"> { props.cta } </a>
+        <Link to={""} className="cta"> { props.cta } </Link>
     );
 };
 

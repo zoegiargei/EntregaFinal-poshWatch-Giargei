@@ -1,8 +1,12 @@
 import { FaShoppingCart } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
 const CartWidget = () => {
     return(
-        <FaShoppingCart className="cartWidget"/>
+        <Link to={"/Cart"}>
+            <FaShoppingCart className="cartWidget"/>
+        </Link>
     );
 };
 

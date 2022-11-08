@@ -4,15 +4,15 @@ $txt-color: #fff;
     
     color: $txt-color;
     width: 100%;
-    height: 100vh;
-    min-height: 600px;
+    height: 60vh;
+    min-height: 500px;
     max-height: 800px;
     position: relative;
     
     display: grid;
     grid-template-rows: 100px 1fr;
 
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../images/reloj1.jpg);
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../images/banner-tommy.png);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -37,21 +37,5 @@ $txt-color: #fff;
 
     .hero__paragraph{
         margin-bottom: 30px;
-    }
-
-    .cta{
-        text-decoration: none;
-        color: $txt-color;
-
-        display: inline-block;
-        background-color: #00bc48;
-        justify-self: center;
-        padding: 13px 30px;
-        border-radius: 32px;
-
-        transition: all 350ms;
-        &:hover{
-            transform: scale(1.1);
-        }
     }
 }

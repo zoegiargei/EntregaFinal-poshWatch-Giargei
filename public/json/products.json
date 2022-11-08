@@ -1,6 +1,7 @@
 [
     {
-        "id": "1",
+        "id": 1,
+        "category": "Woman", 
         "marca": "Reloj Tommy Hilfiger",
         "modelo": "1782558",
         "material": "Acero inoxidable",
@@ -11,7 +12,8 @@
         "img":"reloj-mujer-tommy-1782558.png"
     },
     {
-        "id": "2",
+        "id": 2,
+        "category": "Woman",
         "marca": "Reloj Tommy Hilfiger",
         "modelo": "1782497",
         "material": "Acero inoxidable",
@@ -22,7 +24,8 @@
         "img":"reloj-mujer-tommy-1782497.png"
     },
     {
-        "id": "3",
+        "id": 3,
+        "category": "Woman",
         "marca": "Reloj Festina Boyfriend",
         "modelo": "F16790/A",
         "material": "Acero inoxidable",
@@ -33,7 +36,8 @@
         "img":"reloj-mujer-festina-F16790-A.png"
     },
     {
-        "id": "4",
+        "id": 4,
+        "category": "Woman",
         "marca": "Reloj Festina Boyfriend",
         "modelo": "F16790/B",
         "material": "Acero inoxidable",
@@ -44,7 +48,8 @@
         "img":"reloj-mujer-festina-F16790-B.png"
     },
     {
-        "id": "5",
+        "id": 5,
+        "category": "Woman",
         "marca": "Reloj Citizen EcoDrive",
         "modelo": "EM050375X",
         "material": "Acero inoxidable",
@@ -55,7 +60,8 @@
         "img":"reloj-mujer-citizen-EM050375X.png"
     },
     {
-        "id": "6",
+        "id": 6,
+        "category": "Woman",
         "marca": "Reloj Citizen EcoDrive",
         "modelo": "EM053382Y",
         "material": "Acero inoxidable",
@@ -66,7 +72,8 @@
         "img":"reloj-mujer-citizen-EM053382Y.png"
     },
     {
-        "id": "7",
+        "id": 7,
+        "category": "Man",
         "marca": "Reloj Tommy Hilfiger",
         "modelo": "1792007",
         "material": "Acero inoxidable",
@@ -77,7 +84,8 @@
         "img":"reloj-hombre-tommy-1792007.png"
     },
     {
-        "id": "8",
+        "id": 8,
+        "category": "Man",
         "marca": "Reloj Tommy Hilfiger",
         "modelo": "1792020",
         "material": "Acero inoxidable",
@@ -88,7 +96,8 @@
         "img":"reloj-hombre-tommy-1792020.png"
     },
     {
-        "id": "9",
+        "id": 9,
+        "category": "Man",
         "marca": "Reloj Fossil",
         "modelo": "FS5119",
         "material": "Acero inoxidable",
@@ -99,7 +108,8 @@
         "img":"reloj-hombre-fossil-FS5119.png"
     },
     {
-        "id": "10",
+        "id": 10,
+        "category": "Man",
         "marca": "Reloj Fossil",
         "modelo": "FS5095",
         "material": "Cuero",
@@ -110,7 +120,8 @@
         "img":"reloj-hombre-fossil-FS5095.png"
     },
     {
-        "id": "11",
+        "id": 11,
+        "category": "Man",
         "marca": "Reloj Tissot PRS 516 Automatic",
         "modelo": "1004271605100",
         "material": "Cuero",
@@ -121,7 +132,8 @@
         "img":"reloj-hombre-tissot-1004271605100.png"
     },
     {
-        "id": "12",
+        "id": 12,
+        "category": "Man",
         "marca": "Reloj Tissot Pr 100",
         "modelo": "1014101105100",
         "material": "Acero inoxidable",

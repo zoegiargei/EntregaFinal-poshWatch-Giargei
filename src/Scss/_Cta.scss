@@ -1,0 +1,19 @@
+.cta{
+    
+    text-decoration: none;
+    color: $txt-color;
+
+    cursor: pointer;
+
+    display: inline-block;
+    background-color: #950000;
+    justify-self: center;
+    padding: 13px 30px;
+    border-radius: 32px;
+
+    transition: all 350ms;
+    &:hover{
+        color: $txt-color;
+        transform: scale(1.1);
+    }
+}

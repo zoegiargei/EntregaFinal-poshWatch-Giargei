@@ -1,27 +1,32 @@
+import { Link } from 'react-router-dom';
+
 import iconoMenu from '../../svg/nav__menu.svg';
 import closeMenu from '../../svg/nav__close.svg';
-import ItemList from '../ItemList/ItemList';
 import CartWidget from '../CartWidget/CartWidget';
+import ItemNavbar from '../ItemNavbar/ItemNavbar';
 
 const NavBar = ( props ) => {
     
     return(
         <nav className="nav container">
-            <div className="nav__logo">
+            <Link className="nav__logo" to="/">
                 { props.logo }
-                {/* <img src={ props.logo } alt="Logo de Ecommerce" className="logo"/> */}
-            </div>
+            </Link>
 
             <ul className="nav__link nav__link--menu">
 
-                { 
-                    (props.opciones).map(opt => <ItemList opcion={ opt }  />)
+                <li className='nav__items'>
+                    <Link className='nav__links' to={"/"}>Home</Link>
+                </li>
+
+                {
+                    (props.opciones).map(opt => <ItemNavbar opcion={ opt } to={`/category/${opt}`} />)
                 }
 
                 <li className="nav__items nav__link--menu">
-                    <a className="nav__links" href="#">
+                    <Link className="nav__links" to={"/Cart"}>
                         <CartWidget />
-                    </a>
+                    </Link>
                 </li>
                 
                 <img src={ closeMenu } alt="botón X para cerrar menú lateral" className="nav__close"/>

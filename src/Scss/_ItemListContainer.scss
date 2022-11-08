@@ -1,9 +1,17 @@
-.section__greeting{
+.itemListContainer{
+    font-family: 'Poppins', sans-serif;
 
-    width: 100%;
-
+    margin: auto;
+    text-align: center;
+    
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .first__title{
+
+        margin-top: 30px;
+    }
+
 }

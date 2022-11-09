@@ -76,11 +76,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Categorys and navigability
 
-##Category woman
+## Category woman
 
 ![section-woman](https://user-images.githubusercontent.com/48769662/200921970-516c1fa2-e481-4172-b399-2c9d19416b18.png)
 
-##Category Man
+## Category Man
 
 ![section-man](https://user-images.githubusercontent.com/48769662/200922153-7b6915d0-2b6d-4c12-b949-5a730abb7a6b.png)
 

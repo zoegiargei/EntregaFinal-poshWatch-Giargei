@@ -74,17 +74,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ![vista-previa-proyecto-poshwathc](https://user-images.githubusercontent.com/48769662/200876795-3c6131ca-0f3e-4480-86d3-086ac103a3ce.png)
 
-## Categorys and navigability
+### Categorys and navigability
 
-#Category woman
+##Category woman
 
 ![section-woman](https://user-images.githubusercontent.com/48769662/200921970-516c1fa2-e481-4172-b399-2c9d19416b18.png)
 
-#Category Man
+##Category Man
 
 ![section-man](https://user-images.githubusercontent.com/48769662/200922153-7b6915d0-2b6d-4c12-b949-5a730abb7a6b.png)
 
-## Brand bar
+### Brand bar
 
 ![sections-brands](https://user-images.githubusercontent.com/48769662/200922470-35461abd-ff39-44c0-9052-493a9944f10e.png)
 

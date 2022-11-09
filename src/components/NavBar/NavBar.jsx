@@ -13,7 +13,7 @@ const NavBar = ( props ) => {
                 { props.logo }
             </Link>
 
-            <ul className="nav__link nav__link--menu">
+            <ul className="nav__link">
 
                 <li className='nav__items'>
                     <Link className='nav__links' to={"/"}>Home</Link>
@@ -23,7 +23,7 @@ const NavBar = ( props ) => {
                     (props.opciones).map(opt => <ItemNavbar opcion={ opt } to={`/category/${opt}`} />)
                 }
 
-                <li className="nav__items nav__link--menu">
+                <li className="nav__items">
                     <Link className="nav__links" to={"/Cart"}>
                         <CartWidget />
                     </Link>

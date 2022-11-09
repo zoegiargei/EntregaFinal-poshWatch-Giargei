@@ -71,5 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ## App preview
-![preview](https://user-images.githubusercontent.com/48769662/196729941-76420259-3b54-418b-93b3-a142de792504.png)
+
+![vista-previa-proyecto-poshwathc](https://user-images.githubusercontent.com/48769662/200876795-3c6131ca-0f3e-4480-86d3-086ac103a3ce.png)
 

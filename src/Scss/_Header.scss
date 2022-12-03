@@ -32,10 +32,26 @@ $txt-color: #fff;
     text-align: center;
 
     .hero__title{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .hero__paragraph{
-        margin-bottom: 30px;
+        font-size: 2em;
+        font-weight: 100;
+        margin-bottom: 1em;
+    }
+}
+
+
+@media (max-width: 800px){
+
+    .hero__container{
+
+        .hero__title{
+            font-size: 2.5rem;
+        }
+        .hero__paragraph{
+            font-size: 1rem;
+        }
     }
 }

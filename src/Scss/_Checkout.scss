@@ -1,0 +1,118 @@
+$blue: #468bf4;
+
+.container__checkout{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    form{
+
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container__details{
+        
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin: 0;
+    }
+
+    .container__details--grid{
+
+        border-radius: 5px;
+        border-bottom-right-radius: 0px;
+
+        .img__detail{
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+
+        .product__marca{
+
+            font-size: 18px;
+            font-weight: 600;
+            width: 50px;
+        }
+
+        .product__detail{
+
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            width: 125px;
+        }
+
+        .product__subtotal{
+
+            @extend .product__detail;
+            color: #ffff;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 1em;
+            background-color: $blue;
+            border-radius: 5px;
+        }
+    }
+
+    .total__price{
+
+        color: #ffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        
+        .total{
+
+            border-radius: 5px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            text-align: center;
+            width: 320px;
+            padding: 1em 0.5em;
+            background-color: $blue;
+        }
+    }
+}
+
+@media (max-width: 800px){
+
+    .container__checkout{
+        
+        .container__details{
+            
+            flex-direction: column;
+            justify-content: space-between;
+    
+            margin: 0;
+
+            .product__marca,.product__detail,.product__subtotal{
+                width: 200px;
+            }
+
+        }
+
+        .total__price{
+            
+            .total{
+    
+                width: 320px;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+}
+

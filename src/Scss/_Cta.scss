@@ -1,19 +1,56 @@
 .cta{
     
-    text-decoration: none;
     color: $txt-color;
+    text-decoration: none;
+    border: none;
+
+    font-size: 1.5em;
+    font-weight: 200;
 
     cursor: pointer;
 
     display: inline-block;
-    background-color: #950000;
+    background-color: #932626;
     justify-self: center;
     padding: 13px 30px;
-    border-radius: 32px;
 
     transition: all 350ms;
     &:hover{
+        
         color: $txt-color;
         transform: scale(1.1);
     }
+}
+
+.cta__2{
+
+    @extend .cta;
+
+    font-size: 1em;
+    color: $txt-color;
+    background-color: #468bf4;
+    border-radius: 5px;
+
+    @media (max-width: 668px){
+        font-size: 0.5em;
+    }
+}
+
+.cta__3{
+
+    @extend .cta__2;
+
+    background-color: #0061d8;
+}
+
+.cta__4{
+    @extend .cta__2;
+
+    background-color: #ed3833;
+}
+
+.cta__5{
+    @extend .cta__2;
+    
+    background-color: #f07447;
 }

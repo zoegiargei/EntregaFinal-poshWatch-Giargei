@@ -11,11 +11,17 @@
     gap: 2em;
     align-content: center;
     justify-content: space-around;
-
 }
+
 .brand__item{
     
     list-style-type: none;
+
+    transition: all 350ms;
+    &:hover{
+        transform: scale(1.1);
+    }
+
     .brand__link{
 
         text-decoration: none;
@@ -24,4 +30,28 @@
         font-size: 1.5em;
         font-weight: 200;
     }
+}
+
+@media (max-width: 800px){
+
+    .brand__item{
+    
+        .brand__link{
+    
+            font-size: 1em;
+            font-weight: 300;
+        }
+    }   
+}
+
+@media (max-width: 668px){
+
+    .brand__item{
+    
+        .brand__link{
+    
+            font-size: 0.5em;
+            font-weight: 220;
+        }
+    }   
 }

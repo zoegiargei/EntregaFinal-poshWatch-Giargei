@@ -5,10 +5,10 @@ const BrandBar = () => {
     let opcionesMarcas = ["Tommy Hilfiger", "Festina", "Citizen", "Fossil", "Tissot"]
 
     return (
-        <div className='brands__container'>
+        <div className="brands__container">
 
             {
-                (opcionesMarcas).map(opt => <ItemBrand opcion={ opt } to={`/brand/${opt}`} />)
+                (opcionesMarcas).map((opt, index) => <ItemBrand key={index} opcion={ opt } to={`/brand/${opt}`} />)
             }
         </div>
     );

@@ -1,0 +1,23 @@
+.fav{
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    .fav__icon{
+
+        color: #929292;
+        font-size: 35px;
+        transition: all 400ms;
+
+        &:hover{
+
+            transform: scale(1.1);
+            cursor: pointer;
+            filter: drop-shadow(1px 1px 35px rgb(52, 52, 52));
+        }
+    }
+
+    .fav__icon--selected{
+        color: rgb(203, 0, 0);
+    }
+}

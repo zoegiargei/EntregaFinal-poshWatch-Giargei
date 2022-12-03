@@ -1,12 +1,11 @@
 .banner{
 
     width: 100%;
-    background-color: black;
+    height: min-content;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    object-fit: cover;
+    img{
+        width: 100%;
+        height: min-content;
+        object-fit: cover;
+    }
 }

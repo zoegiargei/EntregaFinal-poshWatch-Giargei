@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import ItemDetail from "../ItemDetail/ItemDetail";
-import { databaseQuery } from "../../assets/funciones";
+import { getProduct } from "../../assets/firebare";
 
 const ItemDetailContainer = () => {
 
@@ -11,18 +11,26 @@ const ItemDetailContainer = () => {
 
     useEffect( () => {
 
-        databaseQuery("../json/products.json")
-        .then(products => {
-            const product = products.find(productId => productId.id === parseInt(id))
+        getProduct(id).then(product => {
+
             setReloj(product)
         })
 
     },[]);
 
     return (
-        <div>
-            <ItemDetail reloj={reloj}/>
-        </div>
+        <>
+            {
+                reloj.id ?
+                <div className="container">
+                    <ItemDetail reloj={ reloj }/>
+                </div>
+                :
+                <div className="container">
+                    <h1>Producto inexistente</h1>
+                </div>
+            }
+        </>
     );
 }
 

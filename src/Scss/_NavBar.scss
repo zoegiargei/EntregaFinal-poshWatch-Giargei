@@ -24,7 +24,7 @@
         list-style-type: none;
     }
 
-    .nav__link{
+    .nav__links{
 
         margin-left: auto;
 
@@ -34,7 +34,7 @@
         gap: 2.5em;
     }
 
-    .nav__links{
+    .nav__link{
 
         color: $txt-color;
         text-decoration: none;
@@ -58,17 +58,129 @@
     }
 
     .nav__close{
+
+        width: 35px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+
+        cursor: pointer;
         display: var(--show, none);
     }
 }
 
-.cartWidget{
+.cartWidget__container{
 
-    color: $txt-color;
-    font-size: 28px;
+    position: relative;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    transition: color 350ms;
-    &:hover{
-        color: rgb(170, 170, 170);
+    
+    .cartWidget{
+        
+        text-decoration: none;
+        color: $txt-color;
+        font-size: 28px;
+    
+        transition: color 350ms;
+        &:hover{
+            color: rgb(170, 170, 170);
+        }
+    }
+
+    .totalCant{
+
+        position: absolute;
+        top: -10px;
+        right: -1px;
+
+        color: $txt-color;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 25px;
+        height: 25px;
+        padding: 3px;
+
+        border-radius: 50%;
+        background-color: rgb(180, 51, 51);
+    }
+}
+
+
+//mediaqueries
+@media (max-width: 800px) {
+
+    .nav{
+        
+        .nav__menu{
+
+            display: block;
+            background-color: #043067;
+            position: fixed;
+            z-index: 999;
+            right: 1.2em;
+
+            .nav__img{
+                width: 45px;
+                
+                transition: opacity 400ms;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+
+        }
+    
+        .nav__links{
+    
+            background-color: rgba(0, 0, 0, 0.739);
+            position: fixed;
+            z-index: 9999;
+
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            
+            transition: .7s opacity;
+            opacity: 0;
+            pointer-events: none;
+
+            .nav__link{
+                font-size: 12px;
+            }
+        }
+
+        .nav__links--show{
+
+            --show: block;
+            opacity: 1;
+            pointer-events: unset;
+        }
+
+        .nav__close{
+
+            cursor: pointer;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+        }
+    }
+
+    .cartWidget__container{
+        .cartWidget{
+            text-align: center;
+            font-size: 40px;
+        }
     }
 }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Cta = (props) => {
     return(
-        <Link to={""} className="cta"> { props.cta } </Link>
+        <Link to={"/collection"} className="cta"> { props.cta } </Link>
     );
 };
 

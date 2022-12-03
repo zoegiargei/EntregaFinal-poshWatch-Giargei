@@ -3,16 +3,21 @@ $txt-color: rgb(46, 46, 46);
 .container__cards{
 
     width: 100%;
+    padding: 2.5em;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 3em;
+    justify-content: space-around;
+    gap: 1.5em;
 }
 
 .card{
 
     width: 400px;
+    height: 500px;
     margin: 10px;
     padding: 20px;
 
@@ -68,23 +73,52 @@ $txt-color: rgb(46, 46, 46);
     }
 
     .hr__card{
-        margin-top: 30px;
+        margin-top: 10px;
         border: none;
         height: 0.2px;
         background-color: rgb(46, 46, 46);
+    }
+    
+    .h3__card{
+
+        margin-top: 15px;
+        font-size: 30px;
+        font-weight: 500;
     }
 
     .footer__card{
 
         margin-top: 10px;
-        color: $txt-color;
-
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
 
-        .h3__footer{
-            font-size: 15px;
-            font-weight: 500;
+    }
+}
+
+@media (max-width: 800px){
+
+    .card{
+
+        width: 380px;
+        height: 280px;
+
+        margin: 5px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 668px){
+    .card{
+
+        width: 400px;
+        height: 180px;
+
+        .cover__card{
+
+            margin: auto;
+            text-align: center;
+            width: 80%;
+            height: 100px;
         }
     }
 }

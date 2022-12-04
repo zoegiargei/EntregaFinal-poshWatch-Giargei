@@ -8,13 +8,13 @@
 
 ##Índice
 
-*[Descripción del proyecto](#Descripción del proyecto)
-*[Funcionalidades principales](#Funcionalidades principales)
-*[Instalación](#Instalación)
-*[Dependencias](#Dependencias)
-*[]()
-*[]()
-*[]()
+*[Descripción del proyecto](#Descripción del proyecto)*
+*[Funcionalidades principales](#Funcionalidades principales)*
+*[Instalación](#Instalación)*
+*[Dependencias](#Dependencias)*
+*[]()*
+*[]()*
+*[]()*
 
 ***
 

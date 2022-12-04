@@ -64,7 +64,7 @@ O también clonando el repositorio
 ![reacticon](https://user-images.githubusercontent.com/48769662/205469704-dfb32a23-4427-4c5e-918f-9349e38a2f90.png)
 
 <div aling="center">
-    <img src="https://user-images.githubusercontent.com/48769662/205469704-dfb32a23-4427-4c5e-918f-9349e38a2f90.png" width="50px" heigth="50px" style="">
+    <img src="https://user-images.githubusercontent.com/48769662/205469704-dfb32a23-4427-4c5e-918f-9349e38a2f90.png" width="200px" heigth="200px" style="border-radius:50px">
     <img src="">
     <img src="">
     <img src="">

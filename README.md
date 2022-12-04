@@ -1,43 +1,36 @@
-# Getting Started with Create React App
+# Posh Watch - Watches Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="left">
+  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+</p>
 
 ***
 
-## App preview
+### Descripción del proyecto
 
-![vista-previa-proyecto-poshwathc](https://user-images.githubusercontent.com/48769662/200876795-3c6131ca-0f3e-4480-86d3-086ac103a3ce.png)
+_Posh Watch es un e-commerce desarrollado con la finalidad de aplicar los conocimientos aprendidos en el curso de React de Coderhouse. Se trata de una tienda de relojes en la cual podemos navegar entre las diferentes categorías que ofrece la tienda, ver los detalles de cada producto, agregarlos al carrito, y simular una orden de compra que requiere de datos personales. La página es adaptable a dispositivos móbiles y la estructura es dinámica para poder ser utilizada con otras finalidades de e-commerces. Para almacenar información de la tienda usamos Firebase Database, base de datos NoSQL alojada en la nube. El despliegue del proyecto está hecho con Vercel, allí prodrán ver los resultados obtenidos hasta ahora. Es un trabajo que puede mejorar, con el tiempo se le irán aplicando nuevos métodos para obtener un mejor resultado._
 
-## Categorys and navigability
+***
 
-### Category woman
+### Funcionalidades principales
 
-![section-woman](https://user-images.githubusercontent.com/48769662/200921970-516c1fa2-e481-4172-b399-2c9d19416b18.png)
+- Mostrar el "Home" del e-commerce con todos los productos.
+- Navegar entre las distintas categorías.
+- Agregar productos al carrito de compras. Eliminar producto del carrito o limpiar carrito.
+- Finalizar compra con un formulario "Checkout".
 
-### Category Man
+***
 
-![section-man](https://user-images.githubusercontent.com/48769662/200922153-7b6915d0-2b6d-4c12-b949-5a730abb7a6b.png)
+## Instalación
 
-### Section details products
+Puedes instalarlo desde npm
 
-![section-details](https://user-images.githubusercontent.com/48769662/200924465-1a0032b8-0567-4856-a479-cf5b83413ee8.png)
+`$ npm install platzi-video`
 
-### Brand bar and Categories by brands
+O también clonando el repositorio
 
-![sections-brands](https://user-images.githubusercontent.com/48769662/200922470-35461abd-ff39-44c0-9052-493a9944f10e.png)
+`$ git clone url`
 
-
+***
 
 

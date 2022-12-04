@@ -48,7 +48,7 @@ O también clonando el repositorio
 ***
 
 ### Dependencias
-####Packetes extras incluídos
+*Packetes extras incluídos*
 1. Boostrap
 2. React-icons
 3. React-router-dom

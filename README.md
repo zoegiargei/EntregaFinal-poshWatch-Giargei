@@ -58,15 +58,11 @@ O también clonando el repositorio
 ***
 
 ### Tecnologías utilizadas
-![Javascript](https://user-images.githubusercontent.com/48769662/205469662-4dc315a0-eacd-420d-9931-3fb0f8d8d940.png)
-![firebase](https://user-images.githubusercontent.com/48769662/205469705-4676ef15-8a78-478b-a913-650b3c8730de.png)
-![sass](https://user-images.githubusercontent.com/48769662/205469708-5d894279-9a21-4aef-a387-a512b83e8201.png)
-![reacticon](https://user-images.githubusercontent.com/48769662/205469704-dfb32a23-4427-4c5e-918f-9349e38a2f90.png)
 
 <div aling="center">
     <img src="https://user-images.githubusercontent.com/48769662/205469704-dfb32a23-4427-4c5e-918f-9349e38a2f90.png" width="200px" heigth="200px" border-radius="50px">
-    <img src="">
-    <img src="">
-    <img src="">
+    <img src="[https://user-images.githubusercontent.com/48769662/205469705-4676ef15-8a78-478b-a913-650b3c8730de.png](https://user-images.githubusercontent.com/48769662/205469662-4dc315a0-eacd-420d-9931-3fb0f8d8d940.png)" width="200px" heigth="200px">
+    <img src="https://user-images.githubusercontent.com/48769662/205469708-5d894279-9a21-4aef-a387-a512b83e8201.png" width="200px" heigth="200px">
+    <img src="https://user-images.githubusercontent.com/48769662/205469705-4676ef15-8a78-478b-a913-650b3c8730de.png" width="200px" heigth="200px">
 </div>
 

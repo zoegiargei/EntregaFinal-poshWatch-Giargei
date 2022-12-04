@@ -6,9 +6,21 @@
 
 ***
 
+##Índice
+
+*[Descripción del proyecto](#Descripción del proyecto)
+*[Funcionalidades principales](#Funcionalidades principales)
+*[Instalación](#Instalación)
+*[Dependencias](#Dependencias)
+*[]()
+*[]()
+*[]()
+
+***
+
 ### Descripción del proyecto
 
-_Posh Watch es un e-commerce desarrollado con la finalidad de aplicar los conocimientos aprendidos en el curso de React de Coderhouse. Se trata de una tienda de relojes en la cual podemos navegar entre las diferentes categorías que ofrece la tienda, ver los detalles de cada producto, agregarlos al carrito, y simular una orden de compra que requiere de datos personales. La página es adaptable a dispositivos móbiles y la estructura es dinámica para poder ser utilizada con otras finalidades de e-commerces. Para almacenar información de la tienda usamos Firebase Database, base de datos NoSQL alojada en la nube. El despliegue del proyecto está hecho con Vercel, allí prodrán ver los resultados obtenidos hasta ahora. Es un trabajo que puede mejorar, con el tiempo se le irán aplicando nuevos métodos para obtener un mejor resultado._
+_Posh Watch es un e-commerce desarrollado con la finalidad de aplicar los conocimientos aprendidos en el curso de React de Coderhouse. Se trata de una tienda de relojes en la cual podemos navegar entre las diferentes categorías que ofrece la tienda, ver los detalles de cada producto, agregarlos al carrito, y simular una orden de compra que requiere de datos personales. La estructura es adaptable a dispositivos móbiles y es dinámica para poder ser utilizada con otras finalidades de e-commerces. Para almacenar información de la tienda usamos Firebase Database, base de datos NoSQL alojada en la nube. El despliegue del proyecto está hecho con Vercel, allí prodrán ver los resultados obtenidos hasta ahora. Es un trabajo que puede mejorar, con el tiempo se le irán aplicando nuevos métodos para obtener un mejor resultado._
 
 ***
 
@@ -21,8 +33,9 @@ _Posh Watch es un e-commerce desarrollado con la finalidad de aplicar los conoci
 
 ***
 
-## Instalación
+### Instalación
 
+```
 Puedes instalarlo desde npm
 
 `$ npm install platzi-video`
@@ -30,7 +43,20 @@ Puedes instalarlo desde npm
 O también clonando el repositorio
 
 `$ git clone url`
+```
 
 ***
+
+### Dependencias
+####Packetes extras incluídos
+1. Boostrap
+2. React-icons
+3. React-router-dom
+4. Toastify
+5. Sass
+
+***
+
+
 
 

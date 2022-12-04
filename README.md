@@ -60,9 +60,15 @@ O también clonando el repositorio
 ### Tecnologías utilizadas
 
 <div aling="center">
-    * <img src="https://user-images.githubusercontent.com/48769662/205469961-5c844022-f51f-4c32-9055-68dc64c70464.png" width="200px" heigth="200px">
-    * <img src="https://user-images.githubusercontent.com/48769662/205469662-4dc315a0-eacd-420d-9931-3fb0f8d8d940.png" width="200px" heigth="200px">
-    <img src="https://user-images.githubusercontent.com/48769662/205469994-b0120080-85cb-47d9-a435-d273ac92a7e3.png" width="200px" heigth="200px">
-    <img src="https://user-images.githubusercontent.com/48769662/205469705-4676ef15-8a78-478b-a913-650b3c8730de.png" width="200px" heigth="200px">
+  <img src="https://user-images.githubusercontent.com/48769662/205469961-5c844022-f51f-4c32-9055-68dc64c70464.png" width="200px" heigth="200px">
+    
+  
+  <img src="https://user-images.githubusercontent.com/48769662/205469662-4dc315a0-eacd-420d-9931-3fb0f8d8d940.png" width="200px" heigth="200px">
+  
+  
+  <img src="https://user-images.githubusercontent.com/48769662/205469994-b0120080-85cb-47d9-a435-d273ac92a7e3.png" width="200px" heigth="200px">
+  
+  
+  <img src="https://user-images.githubusercontent.com/48769662/205469705-4676ef15-8a78-478b-a913-650b3c8730de.png" width="200px" heigth="200px">
 </div>
 

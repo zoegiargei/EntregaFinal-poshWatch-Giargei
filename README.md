@@ -60,6 +60,9 @@ O también clonando el repositorio
 ### Tecnologías utilizadas
 
 1. [React](https://es.reactjs.org/)
+2. [Javascript](https://www.javascript.com/)
+3. [Sass](https://sass-lang.com/)
+4. [Firebase](https://firebase.google.com/?hl=es-419&gclid=CjwKCAiAhKycBhAQEiwAgf19emqBEj6dhRpGgwAV5F5nzvJLlAmekCO9Y7wKcdhj9ttCmvKn2OGmlhoCcD4QAvD_BwE&gclsrc=aw.ds)
 
 <div aling="center">
   <img src="https://user-images.githubusercontent.com/48769662/205469961-5c844022-f51f-4c32-9055-68dc64c70464.png" width="200px" heigth="200px">

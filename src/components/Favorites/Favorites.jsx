@@ -9,7 +9,7 @@ const Favorites = () => {
     return (
         <>
             {fav.length === 0 ?
-            <div className="container">
+            <div className="container emptyCart__container">
                 <h1 className="emptyCart__title">No tienes productos en Favorite.</h1>
                 <Link to={"/"}><p className="cta__2">Ir al Inicio</p></Link>
             </div>

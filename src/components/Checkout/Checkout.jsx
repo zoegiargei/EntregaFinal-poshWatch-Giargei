@@ -1,10 +1,9 @@
 import React from 'react';
 
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 import Banner from '../Banner/Banner';
-import imageBanner from '../../images/banner-tarjetas.png';
+import imageBanner from '../../images/banner-tarjetas2.png';
 
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";

@@ -12,9 +12,7 @@
 * [Funcionalidades principales](#Funcionalidades-principales)
 * [Instalación](#Instalación)
 * [Dependencias](#Dependencias)
-* []()
-* []()
-* []()
+* [Tecnologías utilizadas](#Tecnologías-utilizadas)
 
 ***
 

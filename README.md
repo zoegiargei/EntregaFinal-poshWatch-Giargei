@@ -80,7 +80,7 @@ O también clonando el repositorio
 
 ### Vista previa del proyecto
 
-<div aling="center">
+<div aling="right">
     <img src="https://user-images.githubusercontent.com/48769662/205637564-f930a663-3020-47c7-a544-24dff11d7e7d.png" width="400px" heigth="400px" aling="center">
     <img src="https://user-images.githubusercontent.com/48769662/205637726-fa51e9a9-d3cc-4330-9189-7d72f01873b5.png" width="400px" heigth="400px" aling="center">
     <img src="https://user-images.githubusercontent.com/48769662/205637793-47d413b1-92dc-4616-b09d-8781b0c50d7e.png" width="400px" heigth="400px" aling="center">

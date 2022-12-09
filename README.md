@@ -13,6 +13,7 @@
 * [Instalación](#Instalación)
 * [Dependencias](#Dependencias)
 * [Tecnologías utilizadas](#Tecnologías-utilizadas)
+* [Vista previa del proyecto](#Vista-previa-del-proyecto)
 
 ***
 
@@ -75,3 +76,15 @@ O también clonando el repositorio
   <img src="https://user-images.githubusercontent.com/48769662/205469705-4676ef15-8a78-478b-a913-650b3c8730de.png" width="200px" heigth="200px">
 </div>
 
+***
+
+### Vista previa del proyecto
+
+<div aling="center">
+    <img src="https://user-images.githubusercontent.com/48769662/205637564-f930a663-3020-47c7-a544-24dff11d7e7d.png" width="400px" heigth="400px" aling="center">
+    <img src="https://user-images.githubusercontent.com/48769662/205637726-fa51e9a9-d3cc-4330-9189-7d72f01873b5.png" width="400px" heigth="400px" aling="center">
+    <img src="https://user-images.githubusercontent.com/48769662/205637793-47d413b1-92dc-4616-b09d-8781b0c50d7e.png" width="400px" heigth="400px" aling="center">
+    <img src="https://user-images.githubusercontent.com/48769662/205638114-76ed7a57-a892-4795-860d-66c20c2489d2.png" width="400px" heigth="400px" aling="center">
+      <img src="https://user-images.githubusercontent.com/48769662/205638393-94ceb267-30bb-456e-ad90-e1852bef24ee.png" width="400px" heigth="400px" aling="center">
+    <img src="https://user-images.githubusercontent.com/48769662/205638135-22804b0a-c3d7-469a-997d-93c95fcb0c20.png" width="400px" heigth="400px" aling="center">
+</div>

@@ -1,11 +1,19 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 
+import { useEffect } from "react";
+
 import { FaTrashAlt } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
 const Cart = () => {
+
+    useEffect(() => {
+        return () => {
+          window.scrollTo(0, 0)
+        };
+    }, []);
 
     const {cart, clearCart, totalPrice, removeItem} = useContext(CartContext)
 

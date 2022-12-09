@@ -18,6 +18,12 @@ const ItemListContainer = () => {
     const {brand} = useParams()
 
     useEffect(() => {
+        return () => {
+          window.scrollTo(0, 0)
+        };
+    }, []);
+
+    useEffect(() => {
 
         if(category){
 
@@ -47,6 +53,7 @@ const ItemListContainer = () => {
                 setTitle("Home")
             })
         }
+
     }, [category, brand]);
     
     return(

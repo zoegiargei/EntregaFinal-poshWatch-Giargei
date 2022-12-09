@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Banner from '../Banner/Banner';
 import imageBanner from '../../images/banner-tarjetas2.png';
 
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { CartContext } from "../../context/CartContext";
 import { useNavigate } from 'react-router-dom';
 import { createBuyOrder, getProduct, updateProduct} from '../../assets/firebare';
@@ -14,6 +14,12 @@ import { createBuyOrder, getProduct, updateProduct} from '../../assets/firebare'
 import { toast } from 'react-toastify';
 
 const Checkout = () => {
+
+    useEffect(() => {
+        return () => {
+          window.scrollTo(0, 0)
+        };
+    }, []);
     
     const dataForm = React.useRef()
 

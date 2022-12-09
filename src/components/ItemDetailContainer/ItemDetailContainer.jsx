@@ -9,12 +9,22 @@ const ItemDetailContainer = () => {
     const [reloj, setReloj] = useState([]);
     const {id} = useParams();
 
+        /*     useEffect(() => {
+        return () => {
+          window.scrollTo(0, 0)
+        };
+        }, []); */
+
     useEffect( () => {
 
         getProduct(id).then(product => {
 
             setReloj(product)
         })
+
+        return () => {
+            window.scrollTo(0, 0)
+        };
 
     },[]);
 

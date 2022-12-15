@@ -6,7 +6,7 @@
 
 ***
 
-##Índice
+## Índice
 
 * [Descripción del proyecto](#Descripción-del-proyecto)
 * [Funcionalidades principales](#Funcionalidades-principales)

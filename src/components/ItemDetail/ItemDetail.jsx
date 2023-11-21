@@ -1,41 +1,22 @@
-import { useContext, useEffect } from "react";
-
+import { useContext } from "react";
 import ItemCount from "../ItemCount/ItemCount";
-
 import { CartContext } from "../../context/CartContext";
-
-import { FavContext } from "../../context/FavContext";
-
+import { FavContext } from "../../favourite/context/FavContext"
 import { FaHeart } from "react-icons/fa";
 
 const ItemDetail = ({reloj}) => {
 
     const { addItem } = useContext(CartContext);
+    const { addToFav, isFav } = useContext(FavContext)
 
     //Función para agregar Item al cart
     const onAdd = (counter) => {
         addItem(reloj, counter)
     };
 
-    useEffect(() => {
-        return () => {
-            selectedFav(reloj)
-        };
-    }, Boolean);
-
-    const {addToFav, removeFromFav, isFav, selectedFav } = useContext(FavContext);
     
-    const onAddToFav = () => {
-
-        if(isFav){
-
-            selectedFav(reloj)
-            removeFromFav(reloj.id)
-        } else {
-
-            selectedFav(reloj)
-            addToFav(reloj)
-        }
+    const onAddToFav = (reloj) => {
+        addToFav(reloj)
     };
 
     return (
@@ -48,7 +29,7 @@ const ItemDetail = ({reloj}) => {
                 <div className="container__details">
 
                     <div className="fav" >
-                        <FaHeart className={isFav ? "fav__icon fav__icon--selected": "fav__icon"} onClick={ onAddToFav } />
+                        <FaHeart className={isFav(reloj.id) ? "fav__icon fav__icon--selected": "fav__icon"} onClick={() => onAddToFav(reloj)} />
                     </div>
 
                     <div className="img__details">

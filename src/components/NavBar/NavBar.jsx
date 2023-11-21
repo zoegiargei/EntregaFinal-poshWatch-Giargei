@@ -38,7 +38,7 @@ const NavBar = React.memo(( props ) => {
                 }
 
                 <li className='nav__items'>
-                    <Link className='nav__link' to={"/Favorites"}>Favorites</Link>
+                    <Link className='nav__link' to={"/favourite"}>Favorites</Link>
                 </li>
 
                 <li className="nav__items">
